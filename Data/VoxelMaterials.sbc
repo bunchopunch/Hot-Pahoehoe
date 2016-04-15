@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+
+
+    <!-- Pahoehoe Hot -->
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Axio_PahoehoeHot</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Axio_Pahoehoe_Hot</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>1</DamageRatio>
+
+      <!-- Textures -->
+
+      <!-- DX 11 Style-->
+      <ColorMetalXZnY>Textures\Voxels\Axio_PahoehoeHot\Axio_PahoehoeHot_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Axio_PahoehoeHot\Axio_PahoehoeHot_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Axio_PahoehoeHot\Axio_PahoehoeHot_add.dds</ExtXZnY>
+      
+      <!--Distance values that look great-->
+      <ExtDetailScale>0.005</ExtDetailScale>
+      <Far1Distance>300</Far1Distance>
+      <Far1Scale>590</Far1Scale>
+      <Far2Distance>370</Far2Distance>
+      <Far2Scale>590</Far2Scale>
+
+      <SpecularPower>24</SpecularPower>
+      <SpecularShininess>0.364</SpecularShininess>
+
+      <Far3Distance>10000</Far3Distance>
+      <Far3Color>
+        <X>0.11</X>
+        <Y>0.10</Y>
+        <Z>0.08</Z>
+        <W>1.0</W>
+      </Far3Color>
+
+      <BiomeValueMin>0</BiomeValueMin>
+      <BiomeValueMax>10</BiomeValueMax>
+    </VoxelMaterial>
+
+
+  </VoxelMaterials>
+</Definitions>
